@@ -8,7 +8,7 @@
 ### Web Editor for Video Planning
 Web-based tool designed for creators who need a powerful and intuitive environment to edit, preview, and package their content.
 
-[![License: Apache-2.0](https://img.shields.io/github/license/Maclean-D/Furemu-Recorder?labelColor=27303D&color=0877d2)]
+[![License: Apache-2.0](https://img.shields.io/github/license/Maclean-D/Furemu-Recorder?labelColor=27303D&color=0877d2)](/LICENSE)
 
 ## Features
 
