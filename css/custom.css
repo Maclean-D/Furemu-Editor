@@ -1,0 +1,96 @@
+.input-container {
+    display: flex;
+    position: fixed;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 25px;
+    border: 1px solid var(--md-sys-color-secondary);
+    background-color: var(--md-sys-color-background); /* Updated background color */
+    transition: border-color 0.3s, box-shadow 0.3s;
+    padding: 0.4rem;
+    margin: 0;
+    max-width: calc(50% - 5rem);
+    bottom: 0.5rem; /* Position at the bottom of the screen */
+    height: 3.5rem;
+}
+
+.input-container:focus-within {
+    border-color: var(--md-sys-color-primary);
+    box-shadow: 0 0 3px var(--md-sys-color-primary);
+}
+
+.rounded-textbox {
+    resize: none;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    padding: 5px 10px; /* Equal top and bottom padding */
+    font-size: 16px;
+    border-radius: 20px;
+    flex-grow: 1;
+    background-color: transparent;
+    color: inherit;
+    min-height: calc(16px + 10px);
+    max-height: 144px; /* Maximum height for 8 lines */
+    margin-top: 14px;
+}
+
+.title-container {
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 25px;
+    border: 1px solid var(--md-sys-color-background);
+    transition: border-color 0.3s, box-shadow 0.3s;
+    padding: 0.4rem;
+}
+
+.title-container:focus-within {
+    border-color: var(--md-sys-color-background);
+    box-shadow: 0 0 3px var(--md-sys-color-background);
+}
+
+.rounded-title-textbox {
+    resize: none;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    padding: 5px 10px; /* Equal top and bottom padding */
+    font-size: 16px;
+    flex-grow: 1;
+    background-color: transparent;
+    color: inherit;
+    min-height: calc(16px + 10px);
+    margin-top: 14px;
+    width: 90%;
+    height: 100%;
+}
+
+.jumbo-textbox {
+    resize: none;
+    outline: none;
+    border: none;
+    padding: 5px 10px; /* Equal top and bottom padding */
+    font-size: 16px;
+    background-color: transparent;
+    color: inherit;
+    width: 100%;
+    height: calc(100vh - 35rem);
+}
+
+.jumbo-script-textbox {
+    resize: none;
+    outline: none;
+    border: none;
+    padding: 5px 10px; /* Equal top and bottom padding */
+    font-size: 16px;
+    background-color: transparent;
+    color: inherit;
+    width: calc(100% - 2rem);
+    height: calc(100vh - 17rem)
+}
+
+.markdown-preview {
+    font-family: 'Roboto', sans-serif; /* Example: Change to your desired font */
+    font-size: 16px; /* Example: Adjust the size as needed */
+}
