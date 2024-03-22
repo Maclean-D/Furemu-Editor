@@ -25,3 +25,42 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+document.getElementById('copy_thumbnail').addEventListener('click', function() {
+    // Find the textarea element by id instead of class
+    const textarea = document.getElementById('thumbnail_textbox');
+    
+    // Select the text
+    textarea.select();
+    textarea.setSelectionRange(0, 99999); // For mobile devices
+
+    // Copy the text inside the text field to the clipboard
+    document.execCommand('copy');
+
+});
+
+document.getElementById('copy_title').addEventListener('click', function() {
+    // Find the textarea element by id instead of class
+    const textarea = document.getElementById('title-textbox');
+    
+    // Select the text
+    textarea.select();
+    textarea.setSelectionRange(0, 99999); // For mobile devices
+
+    // Copy the text inside the text field to the clipboard
+    document.execCommand('copy');
+
+});
+
+document.getElementById('copy_description').addEventListener('click', function() {
+    // Find the textarea element by id instead of class
+    const textarea = document.getElementById('description');
+    
+    // Select the text
+    textarea.select();
+    textarea.setSelectionRange(0, 99999); // For mobile devices
+
+    // Copy the text inside the text field to the clipboard
+    document.execCommand('copy');
+
+});

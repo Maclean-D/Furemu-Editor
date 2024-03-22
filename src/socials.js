@@ -1,4 +1,4 @@
-document.getElementById('copyButton').addEventListener('click', function() {
+document.getElementById('copySocials').addEventListener('click', function() {
     // Define the text to be copied, including new lines at the beginning and end
     const socialsText = `
 
